@@ -39,9 +39,6 @@ brew install ffmpeg                     # macOS
 ## Quick start
 
 ```bash
-git clone <this-repo>
-cd <this-repo>
-
 uv sync                                 # creates .venv and installs deps
 uv run serve                            # boots FastAPI on :8000
 ```
